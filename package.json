@@ -1,0 +1,17 @@
+{
+  "name": "flutterwave-validation",
+  "version": "1.0.0",
+  "description": "Rule validation API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rabiu Aliyu",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "is-json": "^2.0.1"
+  }
+}
