@@ -22,5 +22,5 @@ app.use((err, req, res, next) => {
 app.use("/",exampleRoute);
 //listen
 app.listen(port, function () {
-  console.log("Rule validator service is running on port " + port);
+  console.log("Rule validation api service is running on port " + port);
 });
